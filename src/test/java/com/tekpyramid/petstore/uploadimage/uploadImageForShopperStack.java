@@ -25,5 +25,6 @@ public class uploadImageForShopperStack
 		.then()
 		.assertThat().statusCode(201)
 		.log().all();
+		//
 	}
 }
